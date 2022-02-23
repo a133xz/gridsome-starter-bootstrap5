@@ -41,3 +41,4 @@ https://gridsome-starter-bootstrap5.vercel.app/
 - https://github.com/loke-dev/gridsome-starter-bootstrap
 - https://fontawesome.com/
 - https://getbootstrap.com/
+- https://vercel.com
