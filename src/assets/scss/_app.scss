@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Default colors
+:root {
+  @each $color, $value in $colors {
+    --color-#{$color}: #{$value};
+  }
+}
+
+html {
+  font-size: #{$base-font-size}px;
+  @include breakpoint(mobile-only) {
+    font-size: #{$base-font-size-mobile}px !important;
+  }
+}
+
+body {
+  @include font;
+  color: var(--color-dark);
+  padding: 0;
+  font-size: rem-calc(20);
+}

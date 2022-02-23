@@ -1,0 +1,17 @@
+// Bootstrap
+// You can import Bootstrap in 3 diferent ways: using the `min` file, the `scss` or loading component by component like you can see below
+@import "bootstrap";
+//@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Modules
+@import "variables";
+@import "utils";
+// Global style
+@import "app";
+
+// _variables --> base font-size, typography and colours,
+// _utils --> breakpoints, space utilities, rem-cal for the fonts
+// _app --> global styles for the app
+//
+// It's important to say that neither `_utils` or `variable` should have any css

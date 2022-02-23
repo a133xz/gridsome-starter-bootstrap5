@@ -1,0 +1,50 @@
+{
+  "header": {
+    "home": "Home"
+  },
+  "navigation": [
+    {
+      "title": "About",
+      "link": "/about"
+    },
+    {
+      "title": "Markdown page",
+      "link": "/legal/cookies"
+    }
+  ],
+  "home": {
+    "desc": "Home page description loaded from the language file"
+  },
+  "about": {
+    "desc": "About page"
+  },
+  "footer": {
+    "desc": "Footer"
+  },
+  "socialIcons": [
+    {
+      "icon": "discord",
+      "link": "/404"
+    },
+    {
+      "icon": "youtube",
+      "link": "/404"
+    },
+    {
+      "icon": "twitter",
+      "link": "/404"
+    },
+    {
+      "icon": "medium",
+      "link": "/404"
+    },
+    {
+      "icon": "telegram",
+      "link": "/404"
+    },
+    {
+      "icon": "whatsapp",
+      "link": "/404"
+    }
+  ]
+}
